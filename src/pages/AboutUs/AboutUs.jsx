@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
-import leftimg from '../../images/leftimg.png';
-import rightimg from '../../images/rightimg.png';
+import leftimg from '../../assets/leftimg.png';
+import rightimg from '../../assets/rightimg.png';
 
 const AboutUs = () => {
   return (

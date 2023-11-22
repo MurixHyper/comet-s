@@ -1,5 +1,5 @@
 import './Main.css';
-import comets from '../../images/comets.png';
+import comets from '../../assets/comets.png';
 const Main= ()=>{
     return(
         <div className="maindiv">

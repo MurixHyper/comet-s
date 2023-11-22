@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactUs.css';
-import comets from '../../images/comets.png';
+import comets from '../../assets/comets.png';
 const ContactUs = () => {
   return (
     <div className="contactmain">
