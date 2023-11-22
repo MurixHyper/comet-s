@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display&display=swap');
+.maindiv{
+    align-content: center;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+.maindiv::before{
+    content: '';
+    position: fixed; 
+    left: 0; right: 0; 
+    top: 0; bottom: 0; 
+    z-index: -1;
+    filter: blur(5px);
+    background-image: url(../../images/bar.png);
+    z-index: -1;
+}
+.mainimage{
+    width: 500px;
+    height: 400px;
+}
+
+.maintext{
+    color: #ffffff;
+    text-align: center;
+}
+.maintext h2{
+    font-size: 70px;
+    font-family: 'Inter', sans-serif;
+}
+.maintext p{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
