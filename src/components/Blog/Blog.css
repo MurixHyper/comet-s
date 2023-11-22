@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.blog{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-blog{
+    text-align: center;
+}
+
+.header-blog img{
+    width: 400px;
+    height: 400px;
+}
+
+.header-blog h1{
+    font-size: 60px;
+}
+
+.content-blog{
+    font-family: 'Anonymous Pro', monospace;
+    margin: 30px 500px;
+}
+.content-blog h2{
+    font-size: 30px;
+}
+
+.blog-header-right{
+    text-align: right;
+}
+
+.blog-header-left{
+    text-align: left;
+}
+
+.blog-header-center{
+    text-align: center;
+}
+
+.blog-text{
+    border: 2px #d9d9d9 solid;
+}
+.blog-left{
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+}
+.blog-right{
+   clip-path: polygon(10% 0%, 100% 0, 90% 100%, 0% 100%);
+}
+
+.blog-center{
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+}
