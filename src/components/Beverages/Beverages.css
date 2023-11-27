@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@500&family=Playfair+Display&display=swap");
 
-.beverage-card {
+.sub-menu-title {
   color: #fff;
   font-family: "Anonymous Pro", monospace;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }

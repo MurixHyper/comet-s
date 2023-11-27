@@ -1,0 +1,65 @@
+.main-form {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.left-part {
+  width: 40%;
+  padding: 30px;
+}
+
+.right-part {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  padding: 30px;
+}
+
+.group-text {
+  width: 100%;
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+.group-input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.message {
+  height: 150px;
+  padding: 10px 15px;
+}
+
+.form-button {
+  font-family: "Playfair Display";
+  background-color: transparent;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.text-right {
+  width: 100%;
+}
+
+.form {
+  margin: 0 100px;
+}
+
+.group-message {
+  padding-right: 30px;
+}

@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from '../../assets/comets.png';
+import MenuHeader from '../../components/MenuHeader/MenuHeader';
 import hookah from '../../assets/hookah.png';
 import beverage from '../../assets/beverages.png';
 import etp from '../../assets/18.png';
 import './Blog.css';
+import Minilogo from '../../components/Minilogo/Minilogo';
 const Blog = () => {
   return (
     <div className="blog">
-      <div className="header-blog">
-        <img src={logo} alt="" />
-        <h1>Our Philosophy</h1>
-      </div>
+      <MenuHeader text={"Our Philisophy"}/>
+      <Minilogo/>
       <div className="content-blog">
         <h2 className="blog-header-left">Why we?</h2>
         <div className="blog-left">
@@ -19,6 +18,7 @@ const Blog = () => {
           </div>
         </div>
       </div>
+      <Minilogo/>
       <div className="content-blog">
         <h2 className="blog-header-right">Updates and news</h2>
         <div className="blog-right">
@@ -47,6 +47,7 @@ const Blog = () => {
           <img src={beverage} alt="" />
         </div>
       </div>
+      <Minilogo/>
       <div className="content-blog">
         <h2 className="blog-header-center">Policy and rules of our institution</h2>
         <div className="blog-center">

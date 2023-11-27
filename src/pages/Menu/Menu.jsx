@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
-import logo from '../../assets/comets.png';
+import MenuHeader from '../../components/MenuHeader/MenuHeader';
+import Beverages from '../../components/Beverages/Beverages';
 import './Menu.css';
 const Menu = () => {
   const [items, setItems]=useState([
@@ -95,12 +96,16 @@ const Menu = () => {
   ])
   return (
     <div className="menu-main">
-      <div className="menu-header">
-        <img src={logo} alt="" />
-        <h1>Menu:</h1>
-      </div>
+      <MenuHeader text={"Menu:"}/>
       <div className="menu-body">
-        <Beverages beverages={items.filter(item=>item.category==="shot")}/>
+        <Beverages 
+        beverages={items.filter(item=>item.category==="shot")} 
+        title="Shots:"
+        styles="sub-menu-title left"/>   
+        <Beverages 
+        beverages={items.filter(item=>item.category==="coctail")} 
+        title="Coctails:"
+        styles="sub-menu-title right"/>   
       </div>
     </div>
   );

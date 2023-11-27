@@ -3,7 +3,7 @@
 .maindiv {
   align-content: center;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .maindiv::before {
@@ -17,10 +17,11 @@
   filter: blur(5px);
   background-image: url(../../assets/bar.png);
   z-index: -1;
+  background-repeat: no-repeat;
 }
 .mainimage {
-  width: 500px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
 }
 
 .maintext {
@@ -28,10 +29,10 @@
   text-align: center;
 }
 .maintext h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Inter", sans-serif;
 }
 .maintext p {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Playfair Display", serif;
 }
