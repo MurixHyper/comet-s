@@ -4,7 +4,7 @@ import Beverages from '../../components/Beverages/Beverages';
 import './Menu.css';
 import Hookahs from '../../components/Hookahs/Hookahs';
 const Menu = () => {
-  const [items, setItems]=useState([
+  const [items]=useState([
     {
       id: 1,
       title: "B-52",
@@ -78,7 +78,7 @@ const Menu = () => {
       category: "coctail"
     },
   ])
-  const[hookahs,setHookahs]=useState([
+  const[hookahs]=useState([
     {
       id: 1,
       title: "Lady Killer (Adalya)",

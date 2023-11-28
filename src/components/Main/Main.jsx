@@ -6,11 +6,13 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 const Main= ()=>{
     return(
         <div className="maindiv">
-            <div className="logodiv">
-                <img className="mainimage" src={comets} alt="" />
-                <div className="maintext">
-                    <h2>Comet.S</h2>
-                    <p>Invest in your emotions</p>
+            <div className="cover-image">
+                <div className="logodiv">
+                    <img className="mainimage" src={comets} alt="" />
+                    <div className="maintext">
+                        <h2>Comet.S</h2>
+                        <p>Invest in your emotions</p>
+                    </div>
                 </div>
             </div>
             <Minilogo/>

@@ -1,9 +1,9 @@
-import React, { useRef } from "react";
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import React from "react";
+import { Form, Button } from 'react-bootstrap';
 import './ContactForm.css';
 
 const ContactForm = () =>{
-    const myFormRef=useRef(null);
+    //const myFormRef=useRef(null);
     return(
         <Form className="form">
             <h2 className="form-header">Contact Us:</h2>
