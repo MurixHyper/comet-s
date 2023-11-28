@@ -1,43 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 
-.header{
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    text-align: center;
-    padding: 40px;
-    font-size: 40px;
+.header {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
 }
 
-.text{
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    padding: 10px;
-}
-.imagelr img{
-    width: 600px;
-    height: 400px;
+.aboutus {
+  text-align: center;
 }
 
-.container{
-    display: flex;
-    height: 400px;
-    padding: 0 100px;
+.text {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+}
+.imagelr img {
+  width: 600px;
+  height: 400px;
 }
 
-.right p{
-    text-align: right;
+.container {
+  display: flex;
+  height: 400px;
+  padding: 0 100px;
 }
 
-.left p{
-    text-align: left;
+.right p {
+  text-align: right;
+}
+
+.left p {
+  text-align: left;
 }
 
 .content,
-.mission{
-    color: #fff;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    margin: 0 300px;
+.mission {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  margin: 0 300px;
 }

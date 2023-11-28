@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import MenuHeader from '../../components/MenuHeader/MenuHeader';
 import Beverages from '../../components/Beverages/Beverages';
 import './Menu.css';
+import Hookahs from '../../components/Hookahs/Hookahs';
 const Menu = () => {
   const [items, setItems]=useState([
     {
@@ -105,7 +106,9 @@ const Menu = () => {
         <Beverages 
         beverages={items.filter(item=>item.category==="coctail")} 
         title="Coctails:"
-        styles="sub-menu-title right"/>   
+        styles="sub-menu-title right"/>
+        <Hookahs
+        hookahs={hookahs}/>   
       </div>
     </div>
   );

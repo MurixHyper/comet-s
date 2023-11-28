@@ -3,19 +3,7 @@
 .blog {
   color: #fff;
   font-family: "Inter", sans-serif;
-}
-
-.header-blog {
   text-align: center;
-}
-
-.header-blog img {
-  width: 400px;
-  height: 400px;
-}
-
-.header-blog h1 {
-  font-size: 60px;
 }
 
 .content-blog {
@@ -73,7 +61,7 @@
 
 .blog-center {
   border: 2px #d9d9d9 solid;
-  clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+  padding: 25px;
 }
 
 .add-info {

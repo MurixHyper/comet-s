@@ -3,4 +3,12 @@
 .beverage-card {
   color: #fff;
   font-family: "Anonymous Pro", monospace;
+  height: 250px;
+}
+
+.beverage-title {
+  font-size: 40px;
+}
+.beverage-recipe {
+  font-size: 25px;
 }

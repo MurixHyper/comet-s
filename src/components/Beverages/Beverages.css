@@ -3,6 +3,7 @@
 .sub-menu-title {
   color: #fff;
   font-family: "Anonymous Pro", monospace;
+  font-size: 50px;
 }
 
 .left {
@@ -11,4 +12,18 @@
 
 .right {
   text-align: right;
+}
+
+.sub-beverage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.half-sub-beverage {
+  width: 50%;
+}
+
+.sub-menu-beverages {
+  padding: 0 100px;
 }

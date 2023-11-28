@@ -1,0 +1,21 @@
+.sub-menu-hookahs {
+  padding: 0 100px;
+}
+
+.sub-menu-header {
+  font-size: 50px;
+}
+
+.sub-menu-header,
+.sub-hookah {
+  color: #fff;
+  font-family: "Anonymous Pro", monospace;
+}
+
+.half-sub-beverage {
+  width: 50%;
+}
+
+.sub-menu-beverages {
+  padding: 0 100px;
+}

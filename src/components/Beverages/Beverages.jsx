@@ -5,13 +5,22 @@ import './Beverages.css';
 const Beverages = ({beverages, title, styles})=>{
     return(
         <div className="sub-menu-beverages">
-            <h2 className={styles}>{title}</h2>
+            <h2 className={styles}>{title}<hr/></h2>
             <div className="sub-beverage">
-                {beverages.map((el)=>(
-                    <Beverage
-                    key={el.id}
-                    beverage={el}
-                    />))}
+                <div className="half-sub-beverage">
+                    {beverages.filter((el)=>el.id%2!==0).map((el)=>(
+                        <Beverage
+                        key={el.id}
+                        beverage={el}
+                        />))}
+                </div>
+                <div className="half-sub-beverage">
+                    {beverages.filter((el)=>el.id%2===0).map((el)=>(
+                        <Beverage
+                        key={el.id}
+                        beverage={el}
+                        />))}
+                </div>
             </div>
         </div>
     );
